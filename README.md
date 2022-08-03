@@ -8,7 +8,9 @@ Once providers defined, jobs are launched to import all the emails & calendar ev
 ## Architecture
 
 In App/Services/MailImporter, an interface is defined so many connectors can be plugged in.
-A job gonna launch as many jobs as connectors implemented
+Import can be launched through a job.
+
+LiveWire were used for the front end, you can find the Component in app/Http/Livewire
 
 ## Demo
 I use [lando](https://docs.lando.dev/) for my local developments and did put the .lando.yml
